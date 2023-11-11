@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       # 将源码clone到运行环境中
-      - uses: actions/checkout@v4.0.0
+      - uses: actions/checkout@v4
         with:
             submodules: 'true' # 这里因为使用了子模块，设置为true
       # 配置Node.js环境
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "16" # 这里需要修改为对应的Node.js版本
       - name: Cache NPM dependencies
-        uses: actions/cache@v4.0.0
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
