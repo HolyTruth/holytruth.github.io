@@ -278,11 +278,11 @@ web_analytics:  # 网页访问统计
   # LeanCloud 计数统计，可用于 PV UV 展示，如果 `web_analytics: enable` 没有开启，PV UV 展示只会查询不会增加
   # LeanCloud count statistics, which can be used for PV UV display. If `web_analytics: enable` is false, PV UV display will only query and not increase
   leancloud:
-    app_id: zMfOB7Ga8LTsPA4E2OLyAjsi-gzGzoHsz
-    app_key: UQcJnqQJHlg8mW2d4VjfkBRu
+    app_id: v3X2fCCKLbmfeejfoSBLAYb7-MdYXbMMI
+    app_key: 6fUkt3gGyc6qQyUBK7DzbbWr
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url: https://zmfob7ga.lc-cn-n1-shared.com
+    server_url: 
     # 统计页面时获取路径的属性
     # Get the attribute of the page path during statistics
     path: window.location.pathname
@@ -785,8 +785,8 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId: zMfOB7Ga8LTsPA4E2OLyAjsi-gzGzoHsz
-  appKey: UQcJnqQJHlg8mW2d4VjfkBRu
+  appId: v3X2fCCKLbmfeejfoSBLAYb7-MdYXbMMI
+  appKey: 6fUkt3gGyc6qQyUBK7DzbbWr
   path: window.location.pathname
   placeholder:
   avatar: 'retro'
