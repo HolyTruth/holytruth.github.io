@@ -17,31 +17,6 @@
   
   
   <entry>
-    <title>测试文章</title>
-    <link href="/2023/11/12/hexoTest/"/>
-    <url>/2023/11/12/hexoTest/</url>
-    
-    <content type="html"><![CDATA[<p>这是一篇测试文章！</p><p><img src="/img/bgc.jpg" alt="图片引用"></p><p>便签</p><p class="note note-primary">标签</p><p class="note note-success">标签</p><p class="note note-warning">标签</p><p class="note note-info">标签</p><p>行内标签<br><span class="label label-primary">Label</span><br><span class="label label-success">Label</span></p><p>按钮<br><a class="btn" href="url" title="title">text</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>test</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>原创</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>安装最新nodejs</title>
     <link href="/post/install-the-latest-nodejs-z2fea9g.html"/>
     <url>/post/install-the-latest-nodejs-z2fea9g.html</url>
