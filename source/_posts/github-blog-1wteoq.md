@@ -21,11 +21,11 @@ toc: true
 
 进入仓库->setting，在左侧找到<span style="font-weight: bold;" data-type="strong">Pages</span>选项卡
 
-​![image](assets/image-20231111122046-hgk3tnf.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111122046-hgk3tnf.png)​
 
 设置好Brach后刷新页面就可以看到这个：
 
-​![image](assets/image-20231111122600-7kit2k3.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111122600-7kit2k3.png)​
 
 至此，我们可以在github域名上访问仓库了，下面就是建立和美化博客的工作了
 
@@ -94,7 +94,7 @@ layout: about
 
 然后执行`hexo server`​，浏览器访问`ip:4000/about`​
 
-​![image](assets/image-20231111173203-3xwtp53.png)成功！
+​![image](http://127.0.0.1:6806/assets/image-20231111173203-3xwtp53.png)成功！
 
 ‍
 
@@ -111,7 +111,7 @@ npm install hexo-deployer-git --save
 
 ### 编辑配置文件`_config.yml`​
 
-​![image](assets/image-20231111185716-9r80pha.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111185716-9r80pha.png)​
 
 ### 配置github连接信息
 
@@ -139,7 +139,7 @@ Host github.com
     Port 443
 ```
 
-​![image](assets/image-20231111193944-tzqunhs.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111193944-tzqunhs.png)​
 
 然后
 
@@ -149,7 +149,7 @@ cat ~/.ssh/id_rsa.pub
 
 将上述命令得到的信息写入github设置中
 
-​![image](assets/image-20231111190246-1qea9n7.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111190246-1qea9n7.png)​
 
 执行
 
@@ -161,21 +161,21 @@ hexo d		# 部署
 
 部署还需要token，在执行`hexo d`​时输入
 
-​![image](assets/image-20231111190631-2eetv77.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111190631-2eetv77.png)​
 
 #### 注册token
 
 进入setting页面，左侧最下面找到`Developer settings`​
 
-​![image](assets/image-20231111190803-vosmgbm.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111190803-vosmgbm.png)​
 
 然后按照要求填写即可
 
-![image](assets/image-20231111190845-xewy5fc.png)​
+![image](http://127.0.0.1:6806/assets/image-20231111190845-xewy5fc.png)​
 
 注意需要勾选repo权限选项
 
-​![image](assets/image-20231111190929-pl8h8x2.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111190929-pl8h8x2.png)​
 
 ‍
 
@@ -183,7 +183,7 @@ hexo d		# 部署
 
 部署成功的输出应如图所示
 
-​![image](assets/image-20231111191055-93ad4sd.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111191055-93ad4sd.png)​
 
 ‍
 
@@ -191,7 +191,7 @@ hexo d		# 部署
 
 修改`_config.yml`​, 将`https://github.com/HolyTruth/holytruth.github.io`​改为`git@github.com:HolyTruth/holytruth.github.io`​
 
-​![image](assets/image-20231111195849-3lffwzs.png)​
+​![image](http://127.0.0.1:6806/assets/image-20231111195849-3lffwzs.png)​
 
 舒服了
 
