@@ -245,7 +245,7 @@ web_analytics:  # 网页访问统计
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
   # Follow the "Do Not Track" setting of the visitor's browser
   # See: https://www.w3.org/TR/tracking-dnt/
-  follow_dnt: true
+  follow_dnt: false
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
@@ -282,7 +282,7 @@ web_analytics:  # 网页访问统计
     app_key: 6fUkt3gGyc6qQyUBK7DzbbWr
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url: https://v3x2fcck.api.lncldglobal.com
+    server_url: 
     # 统计页面时获取路径的属性
     # Get the attribute of the page path during statistics
     path: window.location.pathname
