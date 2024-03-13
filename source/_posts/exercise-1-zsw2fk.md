@@ -1,13 +1,13 @@
 ---
-title: Exercise 1
+title: Fuzzing101 - Exercise 1
 date: '2024-03-13 20:01:56'
-updated: '2024-03-13 22:56:21'
+updated: '2024-03-13 22:59:41'
 permalink: /post/exercise-1-zsw2fk.html
 comments: true
 toc: true
 ---
 
-# Exercise 1
+# Fuzzing101 - Exercise 1
 
 目标：<span style="font-weight: bold;" data-type="strong">[CVE-2019-13288](https://www.cvedetails.com/cve/CVE-2019-13288/)</span> in XPDF 3.02
 
